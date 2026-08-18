@@ -135,7 +135,4 @@ if __name__ == "__main__":
     os.makedirs("data", exist_ok=True)
     df.to_csv("data/sample_procurement.csv", index=False)
 
-    run_agent(
-        "I have a raw dataset at data/sample_procurement.csv. "
-        "Give me a full analysis and try to predict unit_cost."
-    )
+    run_agent("Just clean the data at data/sample_procurement.csv, don't do anything else.")
