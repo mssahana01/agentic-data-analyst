@@ -80,6 +80,7 @@ def generate_report(raw_df: pd.DataFrame, target_column: str, output_path: str =
   pre {{ white-space: pre-wrap; font-family: inherit; line-height: 1.6; }}
   .chart-wrap {{ margin: 12px 0; }}
 </style>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
 </head>
 <body>
   <h1>Automated Data Analysis Report</h1>
